@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+    .container{
+        width: 660px;
+        margin: 0 auto;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .header .header__img{
+        margin: 10px 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__content{
+        width: 530px;
+    }
+    .header__content p{
+        font-size: 24px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .intro_section{
+        margin-top: 26px;
+    }
+    .intro_section > div > p, .video_section p{
+        margin: 20px 0;
+        color: rgba(0, 0, 0, 0.699);
+    }
+    .hero_section > div{
+        margin-top: 25px;
+        padding: 30px;
+        border: 1px solid rgb(0, 47, 255);
+        border-radius: 5px;
+        background: rgba(254, 255, 179, 0.11);
+    }
+    .hero_section .old_img{
+        margin: 10px 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero_section .hero_section__heading h2{
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+    }
+    .hero_section__lists{
+        margin-top: 20px;
+    }
+    .hero_section__lists > div{
+        display: flex;
+    }
+    .hero_section__lists h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ddd;
+        font-size: 18px;
+        width: 48px;
+        height: 48px;
+        padding: 20px;
+        background: rgb(0, 47, 255);
+        margin-top: 5px;
+    }
+    .hero_section__lists .list_desc{
+        margin-left: 15px;
+    }
+    .hero_section__lists .list_desc h4{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .hero_section__lists > div{
+        margin-bottom: 30px;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+    .btn button{
+        padding: 15px 40px;
+        background: #bca148;
+        color: #fff;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .video_section{
+        margin-top: 30px;
+    }
+    .video_section .video{
+        width: 362px;
+        margin: 30px auto;
+    }
+    .footer_section > div{
+        margin: 150px 0 50px;
+    }
+    .footer_section > div > p{
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.767);
+    }
+</style>
+<body>
+    <header class="container header">
+        <div class="header__img">
+            <img src="./img/Logo.png" alt="">
+        </div>
+        <div class="container header__content">
+            <p>The Fastest Way To Get As Close To Scratch
+                As Possible... Without Adding Any Extra
+                Practice Time</p>
+        </div>
+    </header>
+    <div class="container intro_section">
+        <div>
+            <p>Hi [Firstname],</p>
+            <p>Just guessing, but I bet you’re busy... </p>
+            <p>And it’s hard to find time to practice your golf game and lower your scores.</p>
+            <p>That's why... as a bonus with your recent purchase from Performance Golf, <strong>you have a 14-day FREE trial to Scratch Club that has been activated... starting today!</strong></p>
+            <p>Scratch Club is designed to <strong>shave 5 strokes off your handicap in the next 30 days... WITHOUT spending any more time practicing than you already are.</strong></p>
+            <p>And it’s unlocked inside your Performance Golf members area right now!</p>
+            <p>It works using a <strong>3-step process</strong> to lower your handicap:</p>
+        </div>
+        <div class="container hero_section">
+            <div>
+                <div class="old_img">
+                    <img src="./img/Logo Old.png" alt="">
+                </div>
+                <div class="hero_section__heading">
+                    <h2>3 Simple Steps To Consistently Lower Your</h2>
+                    <h2>Handicap Every Month Using Scratch Club</h2>
+                </div>
+                <div class="hero_section__lists">
+                    <div class="list_one">
+                        <h2>1</h2>
+                        <div class="list_desc">
+                            <h4>Learn Like A Scratch Golfer</h4>
+                            <p>Visit the 6 <a href="#">Scratch Golf Accelerators</a>, select the area of your game that has the most opportunity for improvement, and begin learning from the best.</p>
+                        </div>
+                    </div>
+                    <div class="list_two">
+                        <h2>2</h2>
+                        <div class="list_desc">
+                            <h4>Practice Like A Scratch Golfer</h4>
+                            <p>Track your results each time you do an <a href="#">Accelerator Practice Drill</a>, and focus on beating your previous score. Your new skills will translate onto the course.</p>
+                        </div>
+                    </div>
+                    <div class="list_three">
+                        <h2>3</h2>
+                        <div class="list_desc">
+                            <h4>Play Like A Scratch Golfer</h4>
+                            <p>Use the <a href="#">Score Tracker</a> to identify the weak areas in your game, and watch yourself improve the 6 key areas of scratch golf.</p>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button>Get Started Here</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container video_section">
+        <p>Follow the 3 steps above and you’ll be well on your way to finally eliminating those round-derailing swing thoughts...
+        </p>
+        <p>And lowering your handicap by 5 strokes in the next 30 days... just like so many of our members have.</p>
+        <div class="video">
+            <img src="./img/video.png" alt="">
+            <a href="#">Watch how this Scratch Club member went from shooting 120 to 90</a>
+        </div>
+        <p>I look forward to hearing YOUR success story as your handicap drops each month.</p>
+        <p><a href="#">Go here to begin using Scratch Club.</a></p>
+        <p>To better golf and more fun,</p>
+        <p>Brixton Albert</p>
+        <p>Founder, Performance Golf</p>
+        <p><strong>P.S.</strong> Take full advantage of your Scratch Club free pass over the next 14 days... If you love it, then you'll continue getting access for just $19/month after your 14-day trial is complete.</p>
+        <p><strong>P.P.S.</strong> If you have any questions simply reply to this email or call us at 1-800-523-5760 and our support team will be happy to help.</p>
+    </div>
+    <footer class="container footer_section">
+        <div>
+            <p>By the way, if you don't want any more emails about how to use Scratch Club to lower your handicap, then use this link to stop further emails: <a href="#">No more emails about Scratch Club.</a></p>
+            <p>To update your email address, or if you no longer wish to receive any emails from me, you can use the link at the bottom of this email to manage your email preferences. But please use the "manage email preferences" link with caution, because clicking that means you will no longer receive any important updates or communication for products and memberships you have purchased. You also won't receive any more complimentary tips or videos to help lower your score and enjoy the game more. Either way, I wish you nothing but success with your golf game.</p>
+            <p><a href="#">Manage email preferences</a></p>
+            <p>Performance Golf, 2637 E Atlantic Blvd #42821 Pompano Beach, Florida 33062 United States</p>
+        </div>
+    </footer>
+</body>
+</html>
